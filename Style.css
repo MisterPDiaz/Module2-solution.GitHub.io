@@ -59,3 +59,18 @@ section p {
 #beef {
     background-color: #e7e7e7; /* Slightly darker grey background for contrast */
 }
+@media (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    header, section, footer {
+        padding: 10px;
+    }
+}
